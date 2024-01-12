@@ -1,0 +1,112 @@
+.wrapper{
+    align-items: center;
+}
+ 
+ .jumbotron {
+    padding: 4rem;
+    background-color: #abd1c6;
+    font-size: 2rem;
+    background-image: url(img/bg\ 10.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    position: relative;
+}
+.jumbotron::after{
+content: '';
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+background: linear-gradient(0deg, rgb(174, 173, 173) 3%, rgba(0, 0, 0, 0) 25%);
+}
+
+#piket {
+    background-color: #abd1c6;
+}
+#project {
+    background-color: #abd1c6;
+}
+
+.jumbotron {
+    
+    
+}
+.containr {
+    background-color: #fff;
+   
+  
+}
+#home {
+    background-color: #fff;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: none;
+}
+#abot {
+    padding: 4rem;
+}
+#project {
+    padding: 4rem;
+}
+#yossha_my {
+    padding: 3.2rem;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.main1{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #abd1c6;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;    
+}
+
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color:#fff;
+}
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #004643;
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .main{
+        flex-direction: column;
+    }
+}
+
